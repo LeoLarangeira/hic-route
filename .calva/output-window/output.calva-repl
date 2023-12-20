@@ -1,0 +1,220 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+o o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Jacking in...
+; Connecting using "Leiningen" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd /home/leonardo/Desktop/hic-route ; lein update-in :dependencies conj '[nrepl,"1.0.0"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.28.5"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- repl :headless ; popd
+; Using host:port 127.0.0.1:35145 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉user꞉>  ; Use `alt+enter` to evaluate
+clj꞉user꞉> 
+; Jack-in done.
+clj꞉user꞉> 
+{:seguranca
+ "@font-face  {\n  font-family: \"Arial Narrow\";\n  font-weight: normal;\n  src: url('../fonts/arialn.ttf') format('truetype');\n}\n@font-face  {\n  font-family: \"Arial Narrow\";\n  font-weight: bold;\n  src: url('../fonts/arialnb.ttf') format('truetype');\n}\nbody  {\n  margin: 0;\n  padding: 0;\n  display: flex;\n  font-family: \"Arial Narrow\";\n  text-transform: uppercase;\n}\n.col  {\n  padding: 0;\n  display: inline-block;\n  width: 26mm;\n  height: 132mm;\n  margin: 0 3.33mm 0 0;\n}\n.row  {\n  position: relative;\n  text-align: center;\n  float: left;\n  padding: 0;\n  display: block;\n  width: 100%;\n  height: 12mm;\n  margin: 0;\n  border: 1px solid rgba(255,255,255,0);\n}\n.print  {\n  position: relative;\n  top: 6mm;\n  margin-top: -4.5mm;\n}\n.code  {\n  font-size: 9px;\n}\n.animal  {\n  font-size: 10px;\n  font-weight: bold;\n}\n.date  {\n  font-size: 9px;\n}\n.day  {\n  display: inline;\n  margin-left: 3px;\n}\np  {\n  margin: 0;\n  padding: 0;\n  line-height: 1.3;\n}\n.last  {\n  margin: 0;\n}\n.first  {\n  margin-left: 0;\n}"}
+clj꞉user꞉> 
+#'hic-route.handler/style
+clj꞉hic-route.handler꞉> 
+{:seguranca
+ "@font-face  {\n  font-family: \"Arial Narrow\";\n  font-weight: normal;\n  src: url('../fonts/arialn.ttf') format('truetype');\n}\n@font-face  {\n  font-family: \"Arial Narrow\";\n  font-weight: bold;\n  src: url('../fonts/arialnb.ttf') format('truetype');\n}\nbody  {\n  margin: 0;\n  padding: 0;\n  display: flex;\n  font-family: \"Arial Narrow\";\n  text-transform: uppercase;\n}\n.col  {\n  padding: 0;\n  display: inline-block;\n  width: 26mm;\n  height: 132mm;\n  margin: 0 3.33mm 0 0;\n}\n.row  {\n  position: relative;\n  text-align: center;\n  float: left;\n  padding: 0;\n  display: block;\n  width: 100%;\n  height: 12mm;\n  margin: 0;\n  border: 1px solid rgba(255,255,255,0);\n}\n.print  {\n  position: relative;\n  top: 6mm;\n  margin-top: -4.5mm;\n}\n.code  {\n  font-size: 9px;\n}\n.animal  {\n  font-size: 10px;\n  font-weight: bold;\n}\n.date  {\n  font-size: 9px;\n}\n.day  {\n  display: inline;\n  margin-left: 3px;\n}\np  {\n  margin: 0;\n  padding: 0;\n  line-height: 1.3;\n}\n.last  {\n  margin: 0;\n}\n.first  {\n  margin-left: 0;\n}"}
+clj꞉hic-route.handler꞉> 
+; Syntax error compiling at (handler.clj:70:27).
+; Unable to resolve symbol: col-first in this context
+clj꞉hic-route.handler꞉> 
+; Syntax error compiling at (handler.clj:70:27).
+; Unable to resolve symbol: col-first in this context
+clj꞉hic-route.handler꞉> 
+#'hic-route.handler/app
+clj꞉hic-route.handler꞉> 
+#'hic-route.handler/html-page
+clj꞉hic-route.handler꞉> 
+"<!DOCTYPE html>\n<html dir=\"ltr\"><head><meta charset=\"utf-8\"><style seguranca=\"@font-face  {\n  font-family: &quot;Arial Narrow&quot;;\n  font-weight: normal;\n  src: url(&apos;../fonts/arialn.ttf&apos;) format(&apos;truetype&apos;);\n}\n@font-face  {\n  font-family: &quot;Arial Narrow&quot;;\n  font-weight: bold;\n  src: url(&apos;../fonts/arialnb.ttf&apos;) format(&apos;truetype&apos;);\n}\nbody  {\n  margin: 0;\n  padding: 0;\n  display: flex;\n  font-family: &quot;Arial Narrow&quot;;\n  text-transform: uppercase;\n}\n.col  {\n  padding: 0;\n  display: inline-block;\n  width: 26mm;\n  height: 132mm;\n  margin: 0 3.33mm 0 0;\n}\n.row  {\n  position: relative;\n  text-align: center;\n  float: left;\n  padding: 0;\n  display: block;\n  width: 100%;\n  height: 12mm;\n  margin: 0;\n  border: 1px solid rgba(255,255,255,0);\n}\n.print  {\n  position: relative;\n  top: 6mm;\n  margin-top: -4.5mm;\n}\n.code  {\n  font-size: 9px;\n}\n.animal  {\n  font-size: 10px;\n  font-weight: bold;\n}\n.date  {\n  font-size: 9px;\n}\n.day  {\n  display: inline;\n  margin-left: 3px;\n}\np  {\n  margin: 0;\n  padding: 0;\n  line-height: 1.3;\n}\n.last  {\n  margin: 0;\n}\n.first  {\n  margin-left: 0;\n}\"></style></head><body><div class=\"col-first\"><div class=\"row\"><div class=\"print\"><p class=\"code\">Grupo 1</p><p class=\"animal\">AVE Nº 1 2 3 de Tipo 1</p><p class=\"date\">20/12/2023<span class=\"day\">20</span></p></div></div><div class=\"row\"><div class=\"print\"><p class=\"code\">Grupo 2</p><p class=\"animal\">AVE Nº 4 5 6 de Tipo 2</p><p class=\"date\">13/04/2023<span class=\"day\">20</span></p></div></div><div class=\"row\"><div class=\"print\"><p class=\"code\">Grupo 3</p><p class=\"animal\">AVE Nº 7 8 9 de Tipo 3</p><p class=\"date\">21/12/2023<span class=\"day\">20</span></p></div></div></div></body></html>"
+clj꞉hic-route.handler꞉> 
+#object[hiccup.util.RawString 0x279397d5 "&lt;!DOCTYPE html&gt;\n&lt;html dir=&quot;ltr&quot;&gt;&lt;head&gt;&lt;meta charset=&quot;utf-8&quot;&gt;&lt;style seguranca=&quot;@font-face  {\n  font-family: &amp;quot;Arial Narrow&amp;quot;;\n  font-weight: normal;\n  src: url(&amp;apos;../fonts/arialn.ttf&amp;apos;) format(&amp;apos;truetype&amp;apos;);\n}\n@font-face  {\n  font-family: &amp;quot;Arial Narrow&amp;quot;;\n  font-weight: bold;\n  src: url(&amp;apos;../fonts/arialnb.ttf&amp;apos;) format(&amp;apos;truetype&amp;apos;);\n}\nbody  {\n  margin: 0;\n  padding: 0;\n  display: flex;\n  font-family: &amp;quot;Arial Narrow&amp;quot;;\n  text-transform: uppercase;\n}\n.col  {\n  padding: 0;\n  display: inline-block;\n  width: 26mm;\n  height: 132mm;\n  margin: 0 3.33mm 0 0;\n}\n.row  {\n  position: relative;\n  text-align: center;\n  float: left;\n  padding: 0;\n  display: block;\n  width: 100%;\n  height: 12mm;\n  margin: 0;\n  border: 1px solid rgba(255,255,255,0);\n}\n.print  {\n  position: relative;\n  top: 6mm;\n  margin-top: -4.5mm;\n}\n.code  {\n  font-size: 9px;\n}\n.animal  {\n  font-size: 10px;\n  font-weight: bold;\n}\n.date  {\n  font-size: 9px;\n}\n.day  {\n  display: inline;\n  margin-left: 3px;\n}\np  {\n  margin: 0;\n  padding: 0;\n  line-height: 1.3;\n}\n.last  {\n  margin: 0;\n}\n.first  {\n  margin-left: 0;\n}&quot;&gt;&lt;/style&gt;&lt;/head&gt;&lt;body&gt;&lt;div class=&quot;col-first&quot;&gt;&lt;div class=&quot;row&quot;&gt;&lt;div class=&quot;print&quot;&gt;&lt;p class=&quot;code&quot;&gt;Grupo 1&lt;/p&gt;&lt;p class=&quot;animal&quot;&gt;AVE Nº 1 2 3 de Tipo 1&lt;/p&gt;&lt;p class=&quot;date&quot;&gt;20/12/2023&lt;span class=&quot;day&quot;&gt;20&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;row&quot;&gt;&lt;div class=&quot;print&quot;&gt;&lt;p class=&quot;code&quot;&gt;Grupo 2&lt;/p&gt;&lt;p class=&quot;animal&quot;&gt;AVE Nº 4 5 6 de Tipo 2&lt;/p&gt;&lt;p class=&quot;date&quot;&gt;13/04/2023&lt;span class=&quot;day&quot;&gt;20&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;row&quot;&gt;&lt;div class=&quot;print&quot;&gt;&lt;p class=&quot;code&quot;&gt;Grupo 3&lt;/p&gt;&lt;p class=&quot;animal&quot;&gt;AVE Nº 7 8 9 de Tipo 3&lt;/p&gt;&lt;p class=&quot;date&quot;&gt;21/12/2023&lt;span class=&quot;day&quot;&gt;20&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;"]
+clj꞉hic-route.handler꞉> 
+#'hic-route.handler/html-page
+clj꞉hic-route.handler꞉> 
+"<!DOCTYPE html>\n<html dir=\"ltr\"><head><meta charset=\"utf-8\"><style><@font-face  {\n  font-family: \"Arial Narrow\";\n  font-weight: normal;\n  src: url(' class=\" /fonts/arialn ttf&apos;) format(&apos;truetype&apos;);\n}\n@font-face  {\n  font-family: &quot;Arial Narrow&quot;;\n  font-weight: bold;\n  src: url(&apos;  /fonts/arialnb ttf&apos;) format(&apos;truetype&apos;);\n}\nbody  {\n  margin: 0;\n  padding: 0;\n  display: flex;\n  font-family: &quot;Arial Narrow&quot;;\n  text-transform: uppercase;\n}\n col  {\n  padding: 0;\n  display: inline-block;\n  width: 26mm;\n  height: 132mm;\n  margin: 0 3 33mm 0 0;\n}\n row  {\n  position: relative;\n  text-align: center;\n  float: left;\n  padding: 0;\n  display: block;\n  width: 100%;\n  height: 12mm;\n  margin: 0;\n  border: 1px solid rgba(255,255,255,0);\n}\n print  {\n  position: relative;\n  top: 6mm;\n  margin-top: -4 5mm;\n}\n code  {\n  font-size: 9px;\n}\n animal  {\n  font-size: 10px;\n  font-weight: bold;\n}\n date  {\n  font-size: 9px;\n}\n day  {\n  display: inline;\n  margin-left: 3px;\n}\np  {\n  margin: 0;\n  padding: 0;\n  line-height: 1 3;\n}\n last  {\n  margin: 0;\n}\n first  {\n  margin-left: 0;\n}\"></@font-face  {\n  font-family: \"Arial Narrow\";\n  font-weight: normal;\n  src: url('></style></head><body><div class=\"col-first\"><div class=\"row\"><div class=\"print\"><p class=\"code\">Grupo 1</p><p class=\"animal\">AVE Nº 1 2 3 de Tipo 1</p><p class=\"date\">20/12/2023<span class=\"day\">20</span></p></div></div><div class=\"row\"><div class=\"print\"><p class=\"code\">Grupo 2</p><p class=\"animal\">AVE Nº 4 5 6 de Tipo 2</p><p class=\"date\">13/04/2023<span class=\"day\">20</span></p></div></div><div class=\"row\"><div class=\"print\"><p class=\"code\">Grupo 3</p><p class=\"animal\">AVE Nº 7 8 9 de Tipo 3</p><p class=\"date\">21/12/2023<span class=\"day\">20</span></p></div></div></div></body></html>"
+clj꞉hic-route.handler꞉> 
+"<!DOCTYPE html>\n<html dir=\"ltr\"><head><meta charset=\"utf-8\"><style><@font-face  {\n  font-family: \"Arial Narrow\";\n  font-weight: normal;\n  src: url(' class=\" /fonts/arialn ttf&apos;) format(&apos;truetype&apos;);\n}\n@font-face  {\n  font-family: &quot;Arial Narrow&quot;;\n  font-weight: bold;\n  src: url(&apos;  /fonts/arialnb ttf&apos;) format(&apos;truetype&apos;);\n}\nbody  {\n  margin: 0;\n  padding: 0;\n  display: flex;\n  font-family: &quot;Arial Narrow&quot;;\n  text-transform: uppercase;\n}\n col  {\n  padding: 0;\n  display: inline-block;\n  width: 26mm;\n  height: 132mm;\n  margin: 0 3 33mm 0 0;\n}\n row  {\n  position: relative;\n  text-align: center;\n  float: left;\n  padding: 0;\n  display: block;\n  width: 100%;\n  height: 12mm;\n  margin: 0;\n  border: 1px solid rgba(255,255,255,0);\n}\n print  {\n  position: relative;\n  top: 6mm;\n  margin-top: -4 5mm;\n}\n code  {\n  font-size: 9px;\n}\n animal  {\n  font-size: 10px;\n  font-weight: bold;\n}\n date  {\n  font-size: 9px;\n}\n day  {\n  display: inline;\n  margin-left: 3px;\n}\np  {\n  margin: 0;\n  padding: 0;\n  line-height: 1 3;\n}\n last  {\n  margin: 0;\n}\n first  {\n  margin-left: 0;\n}\"></@font-face  {\n  font-family: \"Arial Narrow\";\n  font-weight: normal;\n  src: url('></style></head><body><div class=\"col-first\"><div class=\"row\"><div class=\"print\"><p class=\"code\">Grupo 1</p><p class=\"animal\">AVE Nº 1 2 3 de Tipo 1</p><p class=\"date\">20/12/2023<span class=\"day\">20</span></p></div></div><div class=\"row\"><div class=\"print\"><p class=\"code\">Grupo 2</p><p class=\"animal\">AVE Nº 4 5 6 de Tipo 2</p><p class=\"date\">13/04/2023<span class=\"day\">20</span></p></div></div><div class=\"row\"><div class=\"print\"><p class=\"code\">Grupo 3</p><p class=\"animal\">AVE Nº 7 8 9 de Tipo 3</p><p class=\"date\">21/12/2023<span class=\"day\">20</span></p></div></div></div></body></html>"
+clj꞉hic-route.handler꞉> 
+"<!DOCTYPE html>\n<html dir=\"ltr\"><head><meta charset=\"utf-8\"><style><@font-face  {\n  font-family: \"Arial Narrow\";\n  font-weight: normal;\n  src: url(' class=\" /fonts/arialn ttf&apos;) format(&apos;truetype&apos;);\n}\n@font-face  {\n  font-family: &quot;Arial Narrow&quot;;\n  font-weight: bold;\n  src: url(&apos;  /fonts/arialnb ttf&apos;) format(&apos;truetype&apos;);\n}\nbody  {\n  margin: 0;\n  padding: 0;\n  display: flex;\n  font-family: &quot;Arial Narrow&quot;;\n  text-transform: uppercase;\n}\n col  {\n  padding: 0;\n  display: inline-block;\n  width: 26mm;\n  height: 132mm;\n  margin: 0 3 33mm 0 0;\n}\n row  {\n  position: relative;\n  text-align: center;\n  float: left;\n  padding: 0;\n  display: block;\n  width: 100%;\n  height: 12mm;\n  margin: 0;\n  border: 1px solid rgba(255,255,255,0);\n}\n print  {\n  position: relative;\n  top: 6mm;\n  margin-top: -4 5mm;\n}\n code  {\n  font-size: 9px;\n}\n animal  {\n  font-size: 10px;\n  font-weight: bold;\n}\n date  {\n  font-size: 9px;\n}\n day  {\n  display: inline;\n  margin-left: 3px;\n}\np  {\n  margin: 0;\n  padding: 0;\n  line-height: 1 3;\n}\n last  {\n  margin: 0;\n}\n first  {\n  margin-left: 0;\n}\"></@font-face  {\n  font-family: \"Arial Narrow\";\n  font-weight: normal;\n  src: url('></style></head><body><div class=\"col-first\"><div class=\"row\"><div class=\"print\"><p class=\"code\">Grupo 1</p><p class=\"animal\">AVE Nº 1 2 3 de Tipo 1</p><p class=\"date\">20/12/2023<span class=\"day\">20</span></p></div></div><div class=\"row\"><div class=\"print\"><p class=\"code\">Grupo 2</p><p class=\"animal\">AVE Nº 4 5 6 de Tipo 2</p><p class=\"date\">13/04/2023<span class=\"day\">20</span></p></div></div><div class=\"row\"><div class=\"print\"><p class=\"code\">Grupo 3</p><p class=\"animal\">AVE Nº 7 8 9 de Tipo 3</p><p class=\"date\">21/12/2023<span class=\"day\">20</span></p></div></div></div></body></html>"
+clj꞉hic-route.handler꞉> 
+#object[hiccup.util.RawString 0xfe015f6 "&lt;!DOCTYPE html&gt;\n&lt;html dir=&quot;ltr&quot;&gt;&lt;head&gt;&lt;meta charset=&quot;utf-8&quot;&gt;&lt;style&gt;&lt;@font-face  {\n  font-family: &quot;Arial Narrow&quot;;\n  font-weight: normal;\n  src: url(&apos; class=&quot; /fonts/arialn ttf&amp;apos;) format(&amp;apos;truetype&amp;apos;);\n}\n@font-face  {\n  font-family: &amp;quot;Arial Narrow&amp;quot;;\n  font-weight: bold;\n  src: url(&amp;apos;  /fonts/arialnb ttf&amp;apos;) format(&amp;apos;truetype&amp;apos;);\n}\nbody  {\n  margin: 0;\n  padding: 0;\n  display: flex;\n  font-family: &amp;quot;Arial Narrow&amp;quot;;\n  text-transform: uppercase;\n}\n col  {\n  padding: 0;\n  display: inline-block;\n  width: 26mm;\n  height: 132mm;\n  margin: 0 3 33mm 0 0;\n}\n row  {\n  position: relative;\n  text-align: center;\n  float: left;\n  padding: 0;\n  display: block;\n  width: 100%;\n  height: 12mm;\n  margin: 0;\n  border: 1px solid rgba(255,255,255,0);\n}\n print  {\n  position: relative;\n  top: 6mm;\n  margin-top: -4 5mm;\n}\n code  {\n  font-size: 9px;\n}\n animal  {\n  font-size: 10px;\n  font-weight: bold;\n}\n date  {\n  font-size: 9px;\n}\n day  {\n  display: inline;\n  margin-left: 3px;\n}\np  {\n  margin: 0;\n  padding: 0;\n  line-height: 1 3;\n}\n last  {\n  margin: 0;\n}\n first  {\n  margin-left: 0;\n}&quot;&gt;&lt;/@font-face  {\n  font-family: &quot;Arial Narrow&quot;;\n  font-weight: normal;\n  src: url(&apos;&gt;&lt;/style&gt;&lt;/head&gt;&lt;body&gt;&lt;div class=&quot;col-first&quot;&gt;&lt;div class=&quot;row&quot;&gt;&lt;div class=&quot;print&quot;&gt;&lt;p class=&quot;code&quot;&gt;Grupo 1&lt;/p&gt;&lt;p class=&quot;animal&quot;&gt;AVE Nº 1 2 3 de Tipo 1&lt;/p&gt;&lt;p class=&quot;date&quot;&gt;20/12/2023&lt;span class=&quot;day&quot;&gt;20&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;row&quot;&gt;&lt;div class=&quot;print&quot;&gt;&lt;p class=&quot;code&quot;&gt;Grupo 2&lt;/p&gt;&lt;p class=&quot;animal&quot;&gt;AVE Nº 4 5 6 de Tipo 2&lt;/p&gt;&lt;p class=&quot;date&quot;&gt;13/04/2023&lt;span class=&quot;day&quot;&gt;20&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;row&quot;&gt;&lt;div class=&quot;print&quot;&gt;&lt;p class=&quot;code&quot;&gt;Grupo 3&lt;/p&gt;&lt;p class=&quot;animal&quot;&gt;AVE Nº 7 8 9 de Tipo 3&lt;/p&gt;&lt;p class=&quot;date&quot;&gt;21/12/2023&lt;span class=&quot;day&quot;&gt;20&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;"]
+clj꞉hic-route.handler꞉> 
+"<!DOCTYPE html>\n<html dir=\"ltr\"><head><meta charset=\"utf-8\"><style><@font-face  {\n  font-family: \"Arial Narrow\";\n  font-weight: normal;\n  src: url(' class=\" /fonts/arialn ttf&apos;) format(&apos;truetype&apos;);\n}\n@font-face  {\n  font-family: &quot;Arial Narrow&quot;;\n  font-weight: bold;\n  src: url(&apos;  /fonts/arialnb ttf&apos;) format(&apos;truetype&apos;);\n}\nbody  {\n  margin: 0;\n  padding: 0;\n  display: flex;\n  font-family: &quot;Arial Narrow&quot;;\n  text-transform: uppercase;\n}\n col  {\n  padding: 0;\n  display: inline-block;\n  width: 26mm;\n  height: 132mm;\n  margin: 0 3 33mm 0 0;\n}\n row  {\n  position: relative;\n  text-align: center;\n  float: left;\n  padding: 0;\n  display: block;\n  width: 100%;\n  height: 12mm;\n  margin: 0;\n  border: 1px solid rgba(255,255,255,0);\n}\n print  {\n  position: relative;\n  top: 6mm;\n  margin-top: -4 5mm;\n}\n code  {\n  font-size: 9px;\n}\n animal  {\n  font-size: 10px;\n  font-weight: bold;\n}\n date  {\n  font-size: 9px;\n}\n day  {\n  display: inline;\n  margin-left: 3px;\n}\np  {\n  margin: 0;\n  padding: 0;\n  line-height: 1 3;\n}\n last  {\n  margin: 0;\n}\n first  {\n  margin-left: 0;\n}\"></@font-face  {\n  font-family: \"Arial Narrow\";\n  font-weight: normal;\n  src: url('></style></head><body><div class=\"col-first\"><div class=\"row\"><div class=\"print\"><p class=\"code\">Grupo 1</p><p class=\"animal\">AVE Nº 1 2 3 de Tipo 1</p><p class=\"date\">20/12/2023<span class=\"day\">20</span></p></div></div><div class=\"row\"><div class=\"print\"><p class=\"code\">Grupo 2</p><p class=\"animal\">AVE Nº 4 5 6 de Tipo 2</p><p class=\"date\">13/04/2023<span class=\"day\">20</span></p></div></div><div class=\"row\"><div class=\"print\"><p class=\"code\">Grupo 3</p><p class=\"animal\">AVE Nº 7 8 9 de Tipo 3</p><p class=\"date\">21/12/2023<span class=\"day\">20</span></p></div></div></div></body></html>"
+clj꞉hic-route.handler꞉> 
+#function[compojure.core/wrap-route-matches/fn--8398]
+clj꞉hic-route.handler꞉> 
+#object[hiccup.util.RawString 0x4d06328c "&lt;!DOCTYPE html&gt;\n&lt;html dir=&quot;ltr&quot;&gt;&lt;head&gt;&lt;meta charset=&quot;utf-8&quot;&gt;&lt;style&gt;&lt;@font-face  {\n  font-family: &quot;Arial Narrow&quot;;\n  font-weight: normal;\n  src: url(&apos; class=&quot; /fonts/arialn ttf&amp;apos;) format(&amp;apos;truetype&amp;apos;);\n}\n@font-face  {\n  font-family: &amp;quot;Arial Narrow&amp;quot;;\n  font-weight: bold;\n  src: url(&amp;apos;  /fonts/arialnb ttf&amp;apos;) format(&amp;apos;truetype&amp;apos;);\n}\nbody  {\n  margin: 0;\n  padding: 0;\n  display: flex;\n  font-family: &amp;quot;Arial Narrow&amp;quot;;\n  text-transform: uppercase;\n}\n col  {\n  padding: 0;\n  display: inline-block;\n  width: 26mm;\n  height: 132mm;\n  margin: 0 3 33mm 0 0;\n}\n row  {\n  position: relative;\n  text-align: center;\n  float: left;\n  padding: 0;\n  display: block;\n  width: 100%;\n  height: 12mm;\n  margin: 0;\n  border: 1px solid rgba(255,255,255,0);\n}\n print  {\n  position: relative;\n  top: 6mm;\n  margin-top: -4 5mm;\n}\n code  {\n  font-size: 9px;\n}\n animal  {\n  font-size: 10px;\n  font-weight: bold;\n}\n date  {\n  font-size: 9px;\n}\n day  {\n  display: inline;\n  margin-left: 3px;\n}\np  {\n  margin: 0;\n  padding: 0;\n  line-height: 1 3;\n}\n last  {\n  margin: 0;\n}\n first  {\n  margin-left: 0;\n}&quot;&gt;&lt;/@font-face  {\n  font-family: &quot;Arial Narrow&quot;;\n  font-weight: normal;\n  src: url(&apos;&gt;&lt;/style&gt;&lt;/head&gt;&lt;body&gt;&lt;div class=&quot;col-first&quot;&gt;&lt;div class=&quot;row&quot;&gt;&lt;div class=&quot;print&quot;&gt;&lt;p class=&quot;code&quot;&gt;Grupo 1&lt;/p&gt;&lt;p class=&quot;animal&quot;&gt;AVE Nº 1 2 3 de Tipo 1&lt;/p&gt;&lt;p class=&quot;date&quot;&gt;20/12/2023&lt;span class=&quot;day&quot;&gt;20&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;row&quot;&gt;&lt;div class=&quot;print&quot;&gt;&lt;p class=&quot;code&quot;&gt;Grupo 2&lt;/p&gt;&lt;p class=&quot;animal&quot;&gt;AVE Nº 4 5 6 de Tipo 2&lt;/p&gt;&lt;p class=&quot;date&quot;&gt;13/04/2023&lt;span class=&quot;day&quot;&gt;20&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;row&quot;&gt;&lt;div class=&quot;print&quot;&gt;&lt;p class=&quot;code&quot;&gt;Grupo 3&lt;/p&gt;&lt;p class=&quot;animal&quot;&gt;AVE Nº 7 8 9 de Tipo 3&lt;/p&gt;&lt;p class=&quot;date&quot;&gt;21/12/2023&lt;span class=&quot;day&quot;&gt;20&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;"]
+clj꞉hic-route.handler꞉> 
+#'hic-route.handler/app
+clj꞉hic-route.handler꞉> 
+; Execution error (IllegalStateException) at hic-route.handler/eval15719$loading (form-init14712899208553859438.clj:1).
+; Alias h already exists in namespace hic-route.handler, aliasing hiccup2.core
+clj꞉hic-route.handler꞉> 
+; Syntax error compiling at (handler.clj:61:1).
+; Unable to resolve symbol: style-x in this context
+clj꞉hic-route.handler꞉> 
+#'hic-route.handler/style-x
+clj꞉hic-route.handler꞉> 
+false
+clj꞉hic-route.handler꞉> 
+[@font-face  {
+  font-family: "Arial Narrow";
+  font-weight: normal;
+  src: url('../fonts/arialn.ttf') format('truetype');
+}
+@font-face  {
+  font-family: "Arial Narrow";
+  font-weight: bold;
+  src: url('../fonts/arialnb.ttf') format('truetype');
+}
+body  {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  font-family: "Arial Narrow";
+  text-transform: uppercase;
+}
+.col  {
+  padding: 0;
+  display: inline-block;
+  width: 26mm;
+  height: 132mm;
+  margin: 0 3.33mm 0 0;
+}
+.row  {
+  position: relative;
+  text-align: center;
+  float: left;
+  padding: 0;
+  display: block;
+  width: 100%;
+  height: 12mm;
+  margin: 0;
+  border: 1px solid rgba(255,255,255,0);
+}
+.print  {
+  position: relative;
+  top: 6mm;
+  margin-top: -4.5mm;
+}
+.code  {
+  font-size: 9px;
+}
+.animal  {
+  font-size: 10px;
+  font-weight: bold;
+}
+.date  {
+  font-size: 9px;
+}
+.day  {
+  display: inline;
+  margin-left: 3px;
+}
+p  {
+  margin: 0;
+  padding: 0;
+  line-height: 1.3;
+}
+.last  {
+  margin: 0;
+}
+.first  {
+  margin-left: 0;
+}]
+nil
+clj꞉hic-route.handler꞉> 
+@font-face  {
+  font-family: "Arial Narrow";
+  font-weight: normal;
+  src: url('../fonts/arialn.ttf') format('truetype');
+}
+@font-face  {
+  font-family: "Arial Narrow";
+  font-weight: bold;
+  src: url('../fonts/arialnb.ttf') format('truetype');
+}
+body  {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  font-family: "Arial Narrow";
+  text-transform: uppercase;
+}
+.col  {
+  padding: 0;
+  display: inline-block;
+  width: 26mm;
+  height: 132mm;
+  margin: 0 3.33mm 0 0;
+}
+.row  {
+  position: relative;
+  text-align: center;
+  float: left;
+  padding: 0;
+  display: block;
+  width: 100%;
+  height: 12mm;
+  margin: 0;
+  border: 1px solid rgba(255,255,255,0);
+}
+.print  {
+  position: relative;
+  top: 6mm;
+  margin-top: -4.5mm;
+}
+.code  {
+  font-size: 9px;
+}
+.animal  {
+  font-size: 10px;
+  font-weight: bold;
+}
+.date  {
+  font-size: 9px;
+}
+.day  {
+  display: inline;
+  margin-left: 3px;
+}
+p  {
+  margin: 0;
+  padding: 0;
+  line-height: 1.3;
+}
+.last  {
+  margin: 0;
+}
+.first  {
+  margin-left: 0;
+}
+nil
+clj꞉hic-route.handler꞉> 
+#'hic-route.handler/style
+clj꞉hic-route.handler꞉> 
+"@font-face  {\n  font-family: \"Arial Narrow\";\n  font-weight: normal;\n  src: url('../fonts/arialn.ttf') format('truetype');\n}\n@font-face  {\n  font-family: \"Arial Narrow\";\n  font-weight: bold;\n  src: url('../fonts/arialnb.ttf') format('truetype');\n}\nbody  {\n  margin: 0;\n  padding: 0;\n  display: flex;\n  font-family: \"Arial Narrow\";\n  text-transform: uppercase;\n}\n.col  {\n  padding: 0;\n  display: inline-block;\n  width: 26mm;\n  height: 132mm;\n  margin: 0 3.33mm 0 0;\n}\n.row  {\n  position: relative;\n  text-align: center;\n  float: left;\n  padding: 0;\n  display: block;\n  width: 100%;\n  height: 12mm;\n  margin: 0;\n  border: 1px solid rgba(255,255,255,0);\n}\n.print  {\n  position: relative;\n  top: 6mm;\n  margin-top: -4.5mm;\n}\n.code  {\n  font-size: 9px;\n}\n.animal  {\n  font-size: 10px;\n  font-weight: bold;\n}\n.date  {\n  font-size: 9px;\n}\n.day  {\n  display: inline;\n  margin-left: 3px;\n}\np  {\n  margin: 0;\n  padding: 0;\n  line-height: 1.3;\n}\n.last  {\n  margin: 0;\n}\n.first  {\n  margin-left: 0;\n}"
+clj꞉hic-route.handler꞉> 
+#object[hiccup.util.RawString 0x42dae1cd "<!DOCTYPE html>\n<html dir=\"ltr\"><head><meta charset=\"utf-8\"><style>@font-face  {\n  font-family: \"Arial Narrow\";\n  font-weight: normal;\n  src: url('../fonts/arialn.ttf') format('truetype');\n}\n@font-face  {\n  font-family: \"Arial Narrow\";\n  font-weight: bold;\n  src: url('../fonts/arialnb.ttf') format('truetype');\n}\nbody  {\n  margin: 0;\n  padding: 0;\n  display: flex;\n  font-family: \"Arial Narrow\";\n  text-transform: uppercase;\n}\n.col  {\n  padding: 0;\n  display: inline-block;\n  width: 26mm;\n  height: 132mm;\n  margin: 0 3.33mm 0 0;\n}\n.row  {\n  position: relative;\n  text-align: center;\n  float: left;\n  padding: 0;\n  display: block;\n  width: 100%;\n  height: 12mm;\n  margin: 0;\n  border: 1px solid rgba(255,255,255,0);\n}\n.print  {\n  position: relative;\n  top: 6mm;\n  margin-top: -4.5mm;\n}\n.code  {\n  font-size: 9px;\n}\n.animal  {\n  font-size: 10px;\n  font-weight: bold;\n}\n.date  {\n  font-size: 9px;\n}\n.day  {\n  display: inline;\n  margin-left: 3px;\n}\np  {\n  margin: 0;\n  padding: 0;\n  line-height: 1.3;\n}\n.last  {\n  margin: 0;\n}\n.first  {\n  margin-left: 0;\n}</style></head><body><div class=\"col-first\"><div class=\"row\"><div class=\"print\"><p class=\"code\">Grupo 1</p><p class=\"animal\">AVE Nº 1 2 3 de Tipo 1</p><p class=\"date\">20/12/2023<span class=\"day\">20</span></p></div></div><div class=\"row\"><div class=\"print\"><p class=\"code\">Grupo 2</p><p class=\"animal\">AVE Nº 4 5 6 de Tipo 2</p><p class=\"date\">13/04/2023<span class=\"day\">20</span></p></div></div><div class=\"row\"><div class=\"print\"><p class=\"code\">Grupo 3</p><p class=\"animal\">AVE Nº 7 8 9 de Tipo 3</p><p class=\"date\">21/12/2023<span class=\"day\">20</span></p></div></div></div></body></html>"]
+clj꞉hic-route.handler꞉> 
+"<!DOCTYPE html>\n<html dir=\"ltr\"><head><meta charset=\"utf-8\"><style>@font-face  {\n  font-family: \"Arial Narrow\";\n  font-weight: normal;\n  src: url('../fonts/arialn.ttf') format('truetype');\n}\n@font-face  {\n  font-family: \"Arial Narrow\";\n  font-weight: bold;\n  src: url('../fonts/arialnb.ttf') format('truetype');\n}\nbody  {\n  margin: 0;\n  padding: 0;\n  display: flex;\n  font-family: \"Arial Narrow\";\n  text-transform: uppercase;\n}\n.col  {\n  padding: 0;\n  display: inline-block;\n  width: 26mm;\n  height: 132mm;\n  margin: 0 3.33mm 0 0;\n}\n.row  {\n  position: relative;\n  text-align: center;\n  float: left;\n  padding: 0;\n  display: block;\n  width: 100%;\n  height: 12mm;\n  margin: 0;\n  border: 1px solid rgba(255,255,255,0);\n}\n.print  {\n  position: relative;\n  top: 6mm;\n  margin-top: -4.5mm;\n}\n.code  {\n  font-size: 9px;\n}\n.animal  {\n  font-size: 10px;\n  font-weight: bold;\n}\n.date  {\n  font-size: 9px;\n}\n.day  {\n  display: inline;\n  margin-left: 3px;\n}\np  {\n  margin: 0;\n  padding: 0;\n  line-height: 1.3;\n}\n.last  {\n  margin: 0;\n}\n.first  {\n  margin-left: 0;\n}</style></head><body><div class=\"col-first\"><div class=\"row\"><div class=\"print\"><p class=\"code\">Grupo 1</p><p class=\"animal\">AVE Nº 1 2 3 de Tipo 1</p><p class=\"date\">20/12/2023<span class=\"day\">20</span></p></div></div><div class=\"row\"><div class=\"print\"><p class=\"code\">Grupo 2</p><p class=\"animal\">AVE Nº 4 5 6 de Tipo 2</p><p class=\"date\">13/04/2023<span class=\"day\">20</span></p></div></div><div class=\"row\"><div class=\"print\"><p class=\"code\">Grupo 3</p><p class=\"animal\">AVE Nº 7 8 9 de Tipo 3</p><p class=\"date\">21/12/2023<span class=\"day\">20</span></p></div></div></div></body></html>"
+clj꞉hic-route.handler꞉> 
